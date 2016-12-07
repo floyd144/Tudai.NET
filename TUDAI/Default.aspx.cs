@@ -10,5 +10,10 @@ namespace TUDAI
             gvNoticias.DataSource = new NoticiaBusiness().GetNoticias();
             gvNoticias.DataBind();
         }
+
+        protected void gvNoticias_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
